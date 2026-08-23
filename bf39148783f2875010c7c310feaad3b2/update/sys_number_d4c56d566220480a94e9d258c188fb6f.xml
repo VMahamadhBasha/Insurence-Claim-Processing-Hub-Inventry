@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>d4c56d566220480a94e9d258c188fb6f</sys_id>
+    <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+    <sys_update_name>sys_number_d4c56d566220480a94e9d258c188fb6f</sys_update_name>
+    <category>x_1966159_insure_0_settlement</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>STL</prefix>
+  </sys_number>
+</record_update>

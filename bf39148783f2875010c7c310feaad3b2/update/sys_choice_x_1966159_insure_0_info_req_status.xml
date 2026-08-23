@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" field="status" table="x_1966159_insure_0_info_req" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>9a842e3792cc4101919455c46bf5eb5b</sys_id>
+      <element>status</element>
+      <name>x_1966159_insure_0_info_req</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+      <sys_package display_value="x_1966159_insure_0" source="bf39148783f2875010c7c310feaad3b2">bf39148783f2875010c7c310feaad3b2</sys_package>
+      <sys_update_name>sys_choice_x_1966159_insure_0_info_req_status</sys_update_name>
+      <sys_name>status</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>be5e83e71d8649e3b212e43ecae77438</sys_id>
+      <name>x_1966159_insure_0_info_req</name>
+      <element>status</element>
+      <label>Requested</label>
+      <value>requested</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>5a2c0197bbfc4f00912dee46590bbc6a</sys_id>
+      <name>x_1966159_insure_0_info_req</name>
+      <element>status</element>
+      <label>Received</label>
+      <value>received</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>0f434abc5a384e2c9a553529af42a442</sys_id>
+      <name>x_1966159_insure_0_info_req</name>
+      <element>status</element>
+      <label>Validated</label>
+      <value>validated</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>a743eabb12604bad90ba92351e73c25a</sys_id>
+      <name>x_1966159_insure_0_info_req</name>
+      <element>status</element>
+      <label>Cancelled</label>
+      <value>cancelled</value>
+      <sequence>4</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

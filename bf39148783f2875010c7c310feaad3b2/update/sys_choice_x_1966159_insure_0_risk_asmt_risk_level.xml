@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" field="risk_level" table="x_1966159_insure_0_risk_asmt" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>a06bae0b1e1a437082e5353fd244875e</sys_id>
+      <element>risk_level</element>
+      <name>x_1966159_insure_0_risk_asmt</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+      <sys_package display_value="x_1966159_insure_0" source="bf39148783f2875010c7c310feaad3b2">bf39148783f2875010c7c310feaad3b2</sys_package>
+      <sys_update_name>sys_choice_x_1966159_insure_0_risk_asmt_risk_level</sys_update_name>
+      <sys_name>risk_level</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>7a25aa7ad7184b98b589bf525faef5b8</sys_id>
+      <name>x_1966159_insure_0_risk_asmt</name>
+      <element>risk_level</element>
+      <label>Low</label>
+      <value>low</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>068872ad33cd476b86420ae2fdf7afd1</sys_id>
+      <name>x_1966159_insure_0_risk_asmt</name>
+      <element>risk_level</element>
+      <label>Medium</label>
+      <value>medium</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>b6f34a3dfe1a44b799c2ca373d2a5e9b</sys_id>
+      <name>x_1966159_insure_0_risk_asmt</name>
+      <element>risk_level</element>
+      <label>High</label>
+      <value>high</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>8b15ad8846934cbe9399115a6d4a178b</sys_id>
+      <name>x_1966159_insure_0_risk_asmt</name>
+      <element>risk_level</element>
+      <label>Critical</label>
+      <value>critical</value>
+      <sequence>4</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" field="document_type" table="x_1966159_insure_0_claim_doc" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>e0dd9da923d84ce1b0f27186d487754c</sys_id>
+      <element>document_type</element>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+      <sys_package display_value="x_1966159_insure_0" source="bf39148783f2875010c7c310feaad3b2">bf39148783f2875010c7c310feaad3b2</sys_package>
+      <sys_update_name>sys_choice_x_1966159_insure_0_claim_doc_document_type</sys_update_name>
+      <sys_name>document_type</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>735fe46bd5764cbc9f810332ed9f5cfe</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Police Report</label>
+      <value>police_report</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>86a30ce7f13e4d0dab97d5ca3558e50b</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Vehicle Photos</label>
+      <value>vehicle_photos</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>9066167495bc4bad90c9c06d8c48d2cd</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Repair Estimate</label>
+      <value>repair_estimate</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>52449d5f7df74714a0bf2f897eb05514</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Medical Report</label>
+      <value>medical_report</value>
+      <sequence>4</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>c7652412b99446909911dadba8a9e98e</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Hospital Bill</label>
+      <value>hospital_bill</value>
+      <sequence>5</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>588b756de3234cc2a1cd5e3476ea720d</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Property Photos</label>
+      <value>property_photos</value>
+      <sequence>6</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>e6a9e2ae590141319e94e0cc9b47af50</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Travel Documents</label>
+      <value>travel_documents</value>
+      <sequence>7</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>8eaf84d667f14175ba5bd4f0bc34ca13</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Death Certificate</label>
+      <value>death_certificate</value>
+      <sequence>8</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>899f8cb22965496ea8e3b2c595115f82</sys_id>
+      <name>x_1966159_insure_0_claim_doc</name>
+      <element>document_type</element>
+      <label>Other</label>
+      <value>other</value>
+      <sequence>9</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

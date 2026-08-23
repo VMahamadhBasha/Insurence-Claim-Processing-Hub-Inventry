@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>c3adc39e04d74d3ca72f1cc83a50a5fd</sys_id>
+    <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+    <sys_update_name>sys_number_c3adc39e04d74d3ca72f1cc83a50a5fd</sys_update_name>
+    <category>x_1966159_insure_0_claim_req</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>REQ</prefix>
+  </sys_number>
+</record_update>
