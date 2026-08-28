@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1966159_insure_0_info_req">
+  <x_1966159_insure_0_info_req action="INSERT_OR_UPDATE">
+    <sys_id>efdbe307219f46aba8347c3d3c605654</sys_id>
+    <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+    <sys_update_name>x_1966159_insure_0_info_req_efdbe307219f46aba8347c3d3c605654</sys_update_name>
+    <claim>9f83a980c9a24c75aff5f786d65690e6</claim>
+    <customer_comment/>
+    <due_date>2024-06-25</due_date>
+    <follow_up_count>1</follow_up_count>
+    <number>INF0001001</number>
+    <requested_date>2024-06-18 15:00:00</requested_date>
+    <requirement>0a98bfc47f164e228f07220c3d98bdc5</requirement>
+    <status>requested</status>
+  </x_1966159_insure_0_info_req>
+</record_update>

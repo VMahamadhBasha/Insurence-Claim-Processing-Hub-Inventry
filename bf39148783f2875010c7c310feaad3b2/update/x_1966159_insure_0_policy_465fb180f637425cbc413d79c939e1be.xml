@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1966159_insure_0_policy">
+  <x_1966159_insure_0_policy action="INSERT_OR_UPDATE">
+    <sys_id>465fb180f637425cbc413d79c939e1be</sys_id>
+    <sys_scope display_value="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_scope>
+    <sys_update_name>x_1966159_insure_0_policy_465fb180f637425cbc413d79c939e1be</sys_update_name>
+    <active>true</active>
+    <coverage_amount>1000000</coverage_amount>
+    <customer>6816f79cc0a8016401c5a33be04be441</customer>
+    <deductible>50000</deductible>
+    <end_date>2025-12-31</end_date>
+    <external_policy_id>EXT-MOT-2024-001</external_policy_id>
+    <number>POL0001001</number>
+    <policy_type>motor</policy_type>
+    <premium>25000</premium>
+    <start_date>2024-01-01</start_date>
+    <status>active</status>
+  </x_1966159_insure_0_policy>
+</record_update>
