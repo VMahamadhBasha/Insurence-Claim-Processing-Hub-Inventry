@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="406cae7239a4428497aab827bb6c94c8" label="Claim Document" name="x_1966159_insure_0_claim_doc" type="collection">
+        <element label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Verification" sequence="2" value="under_verification"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Uploaded" sequence="1" value="uploaded"/>
+                <element inactive_on_update="false" label="Verified" sequence="3" value="verified"/>
+            </choice>
+        </element>
+        <element label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medical Report" sequence="4" value="medical_report"/>
+                <element inactive_on_update="false" label="Property Photos" sequence="6" value="property_photos"/>
+                <element inactive_on_update="false" label="Police Report" sequence="1" value="police_report"/>
+                <element inactive_on_update="false" label="Vehicle Photos" sequence="2" value="vehicle_photos"/>
+                <element inactive_on_update="false" label="Other" sequence="9" value="other"/>
+                <element inactive_on_update="false" label="Death Certificate" sequence="8" value="death_certificate"/>
+                <element inactive_on_update="false" label="Repair Estimate" sequence="3" value="repair_estimate"/>
+                <element inactive_on_update="false" label="Hospital Bill" sequence="5" value="hospital_bill"/>
+                <element inactive_on_update="false" label="Travel Documents" sequence="7" value="travel_documents"/>
+            </choice>
+        </element>
+        <element label="Claim" mandatory="true" max_length="32" name="claim" reference="x_1966159_insure_0_claim" type="reference"/>
+        <element label="Requirement" max_length="32" name="requirement" reference="x_1966159_insure_0_claim_req" type="reference"/>
+        <element label="Rejection Reason" max_length="500" name="rejection_reason" type="string"/>
+        <element label="Uploaded Date" max_length="40" name="uploaded_date" type="glide_date_time"/>
+        <element label="Verification Notes" max_length="500" name="verification_notes" type="string"/>
+        <element label="Verified Date" max_length="40" name="verified_date" type="glide_date_time"/>
+        <element label="Required" max_length="40" name="required" type="boolean"/>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Verified By" max_length="32" name="verified_by" reference="sys_user" type="reference"/>
+        <element label="Uploaded By" max_length="32" name="uploaded_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="claim"/>
+        </index>
+        <index name="index2">
+            <element name="requirement"/>
+        </index>
+        <index name="index3">
+            <element name="uploaded_by"/>
+        </index>
+        <index name="index4">
+            <element name="verified_by"/>
+        </index>
+    </element>
+</database>

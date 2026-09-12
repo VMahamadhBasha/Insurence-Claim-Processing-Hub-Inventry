@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="134f6785bcd34a888ecbff2c62667834" label="Claim Requirement" name="x_1966159_insure_0_claim_req" type="collection">
+        <element label="Mandatory" mandatory="true" max_length="40" name="mandatory_doc" type="boolean"/>
+        <element label="Requirement Name" mandatory="true" max_length="200" name="requirement_name" type="string"/>
+        <element label="Claim Type" mandatory="true" max_length="40" name="claim_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Life" sequence="5" value="life"/>
+                <element inactive_on_update="false" label="Motor" sequence="1" value="motor"/>
+                <element inactive_on_update="false" label="Travel" sequence="4" value="travel"/>
+                <element inactive_on_update="false" label="Health" sequence="2" value="health"/>
+                <element inactive_on_update="false" label="Home" sequence="3" value="home"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element default="true" label="Active" mandatory="true" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="9" value="other"/>
+                <element inactive_on_update="false" label="Medical Report" sequence="4" value="medical_report"/>
+                <element inactive_on_update="false" label="Hospital Bill" sequence="5" value="hospital_bill"/>
+                <element inactive_on_update="false" label="Travel Documents" sequence="7" value="travel_documents"/>
+                <element inactive_on_update="false" label="Property Photos" sequence="6" value="property_photos"/>
+                <element inactive_on_update="false" label="Repair Estimate" sequence="3" value="repair_estimate"/>
+                <element inactive_on_update="false" label="Police Report" sequence="1" value="police_report"/>
+                <element inactive_on_update="false" label="Vehicle Photos" sequence="2" value="vehicle_photos"/>
+                <element inactive_on_update="false" label="Death Certificate" sequence="8" value="death_certificate"/>
+            </choice>
+        </element>
+    </element>
+</database>

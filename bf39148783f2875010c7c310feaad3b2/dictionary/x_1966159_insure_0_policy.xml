@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="814dcd1636964bd6be48128837b40202" label="Insurance Policy" name="x_1966159_insure_0_policy" type="collection">
+        <element label="Coverage Amount" mandatory="true" max_length="40" name="coverage_amount" type="currency"/>
+        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element label="External Policy ID" max_length="100" name="external_policy_id" type="string"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element default="true" label="Active" mandatory="true" max_length="40" name="active" type="boolean"/>
+        <element label="Agent" max_length="32" name="agent" reference="sys_user" type="reference"/>
+        <element label="Policy Type" mandatory="true" max_length="40" name="policy_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Home" sequence="3" value="home"/>
+                <element inactive_on_update="false" label="Health" sequence="2" value="health"/>
+                <element inactive_on_update="false" label="Life" sequence="5" value="life"/>
+                <element inactive_on_update="false" label="Motor" sequence="1" value="motor"/>
+                <element inactive_on_update="false" label="Travel" sequence="4" value="travel"/>
+            </choice>
+        </element>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Deductible" max_length="40" name="deductible" type="currency"/>
+        <element label="Premium" max_length="40" name="premium" type="currency"/>
+        <element label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Expired" sequence="2" value="expired"/>
+                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element inactive_on_update="false" label="Suspended" sequence="4" value="suspended"/>
+            </choice>
+        </element>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="agent"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

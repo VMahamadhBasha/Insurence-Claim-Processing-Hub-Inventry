@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f92d9e9497184484b7096fa3ba694169" label="Claim Risk Assessment" name="x_1966159_insure_0_risk_asmt" type="collection">
+        <element label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Overridden" sequence="3" value="overridden"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+            </choice>
+        </element>
+        <element label="Risk Level" max_length="40" name="risk_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="critical"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+            </choice>
+        </element>
+        <element label="Override Reason" max_length="500" name="override_reason" type="string"/>
+        <element label="Triggered Rule Summary" max_length="1000" name="triggered_rule_summary" type="string"/>
+        <element label="Assessed By" max_length="32" name="assessed_by" reference="sys_user" type="reference"/>
+        <element label="Risk Score" max_length="40" name="risk_score" type="integer"/>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Fraud Flag" max_length="40" name="fraud_flag" type="boolean"/>
+        <element label="Assessment Date" max_length="40" name="assessment_date" type="glide_date_time"/>
+        <element label="Claim" mandatory="true" max_length="32" name="claim" reference="x_1966159_insure_0_claim" type="reference"/>
+        <index name="index">
+            <element name="assessed_by"/>
+        </index>
+        <index name="index2">
+            <element name="claim"/>
+        </index>
+    </element>
+</database>
