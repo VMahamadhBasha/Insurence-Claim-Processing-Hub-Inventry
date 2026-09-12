@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>f3e954c73766469e936734e4b244641f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Insurence Claim Processing Hub Inventory" source="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insurence Claim Processing Hub Inventory">bf39148783f2875010c7c310feaad3b2</sys_scope>
+        <sys_update_name>sys_atf_step_f3e954c73766469e936734e4b244641f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <table>x_1966159_insure_0_settlement</table>
+        <test display_value="Settlement Approval Syncs to Claim">1fca8d0b755d4c82ace46769ae3c9cb3</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f3e954c73766469e936734e4b244641f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f3e954c73766469e936734e4b244641f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>3dfb219c7eb547e2bb71968d2282571e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f3e954c73766469e936734e4b244641f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>4e5ba39252c84f7d8dae24f33d04b472</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>x_1966159_insure_0_settlement</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f3e954c73766469e936734e4b244641f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>6feee14ec30f48b392feb2b926a8d44f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>number=STL-TEST-001^claim={{step['781e8101b60249d99fbb6e1385d04a8f'].record_id}}^policy={{step['285bab0af42345dd998c4c0f6bd5a654'].record_id}}^claimed_amount=450000^coverage_amount=500000^deductible=10000^recommended_amount=420000^status=draft^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f3e954c73766469e936734e4b244641f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>cd835644833f41d196e51ac4f7379b56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3e954c73766469e936734e4b244641f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f3e954c73766469e936734e4b244641f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>e60a07964e554700af93e5cea97a63ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>number=STL-TEST-001^claim={{step['781e8101b60249d99fbb6e1385d04a8f'].record_id}}^policy={{step['285bab0af42345dd998c4c0f6bd5a654'].record_id}}^claimed_amount=450000^coverage_amount=500000^deductible=10000^recommended_amount=420000^status=draft^EQ</value>
+    </sys_element_mapping>
+</record_update>

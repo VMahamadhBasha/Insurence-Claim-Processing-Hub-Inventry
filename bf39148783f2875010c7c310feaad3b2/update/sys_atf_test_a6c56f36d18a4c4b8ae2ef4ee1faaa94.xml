@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Creates a claim, updates its status to "closed", and asserts the before-update business rule "Set Closure Date on Close" populates closure_date automatically.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Claim Status to Closed Sets Closure Date</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>a6c56f36d18a4c4b8ae2ef4ee1faaa94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Status to Closed Sets Closure Date</sys_name>
+        <sys_package display_value="Insurence Claim Processing Hub Inventory" source="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insurence Claim Processing Hub Inventory">bf39148783f2875010c7c310feaad3b2</sys_scope>
+        <sys_update_name>sys_atf_test_a6c56f36d18a4c4b8ae2ef4ee1faaa94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <test_origin/>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=a6c56f36d18a4c4b8ae2ef4ee1faaa94"/>
+</record_update>

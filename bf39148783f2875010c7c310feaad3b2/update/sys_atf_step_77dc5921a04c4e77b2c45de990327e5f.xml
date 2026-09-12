@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>77dc5921a04c4e77b2c45de990327e5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="Insurence Claim Processing Hub Inventory" source="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insurence Claim Processing Hub Inventory">bf39148783f2875010c7c310feaad3b2</sys_scope>
+        <sys_update_name>sys_atf_step_77dc5921a04c4e77b2c45de990327e5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <table>x_1966159_insure_0_claim</table>
+        <test display_value="Risk Assessment Syncs to Claim">59dff94eb239431e8aaaa8ecfbd6d62b</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=77dc5921a04c4e77b2c45de990327e5f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>77dc5921a04c4e77b2c45de990327e5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>0945eea6b61c415386d511954f7505db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="Assert type">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>77dc5921a04c4e77b2c45de990327e5f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>531e13f2b72042cd9f1b5a91397c08ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <value>risk_level=high^fraud_flag=true</value>
+        <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>77dc5921a04c4e77b2c45de990327e5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>9bcbf17468654659acce1a0e757658c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <value>x_1966159_insure_0_claim</value>
+        <variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>77dc5921a04c4e77b2c45de990327e5f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>a2352f077dcf42a0a751a919b3f32f61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>77dc5921a04c4e77b2c45de990327e5f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>ce2b9eb9f34c43b4b1f62613470da510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <value>{{step['beb88208474f470f83e4d30ec5261cfe'].record_id}}</value>
+        <variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=77dc5921a04c4e77b2c45de990327e5f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>77dc5921a04c4e77b2c45de990327e5f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:17</sys_created_on>
+        <sys_id>62d55860ef6e4efb8a62047469e19ad2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:17</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['beb88208474f470f83e4d30ec5261cfe'].record_id}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>4</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>b011ca71644b41ae804a8a6bd4a40e1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1fca8d0b755d4c82ace46769ae3c9cb3</sys_name>
+        <sys_package display_value="Insurence Claim Processing Hub Inventory" source="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insurence Claim Processing Hub Inventory">bf39148783f2875010c7c310feaad3b2</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_b011ca71644b41ae804a8a6bd4a40e1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <test display_value="Settlement Approval Syncs to Claim">1fca8d0b755d4c82ace46769ae3c9cb3</test>
+        <test_suite display_value="Insurance Claim Processing Workflow Tests">065f723c3839465682def5acb2f3cb7b</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

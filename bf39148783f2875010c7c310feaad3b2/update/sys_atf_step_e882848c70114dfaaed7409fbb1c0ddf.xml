@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>e882848c70114dfaaed7409fbb1c0ddf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Insurence Claim Processing Hub Inventory" source="x_1966159_insure_0">bf39148783f2875010c7c310feaad3b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Insurence Claim Processing Hub Inventory">bf39148783f2875010c7c310feaad3b2</sys_scope>
+        <sys_update_name>sys_atf_step_e882848c70114dfaaed7409fbb1c0ddf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <table>x_1966159_insure_0_claim</table>
+        <test display_value="Claim Status to Closed Sets Closure Date">a6c56f36d18a4c4b8ae2ef4ee1faaa94</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e882848c70114dfaaed7409fbb1c0ddf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e882848c70114dfaaed7409fbb1c0ddf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>5311baf26491460589f2558ff4a3b224</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e882848c70114dfaaed7409fbb1c0ddf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>80022615a901438296ebce12be66ce6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e882848c70114dfaaed7409fbb1c0ddf</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>9996870c709a47d6a24996f933666294</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>number=CLM-TEST-002^policy={{step['8a62a695a56d48f4b886fbd0c2b0285a'].record_id}}^claimant=6816f79cc0a8016401c5a33be04be441^claim_type=health^incident_date=2024-07-10^description=&lt;p&gt;Test claim for closure date validation&lt;/p&gt;^claimed_amount=200000^priority=3^status=new^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e882848c70114dfaaed7409fbb1c0ddf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>e8c02748b87748cea48d458034a0a30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <value>x_1966159_insure_0_claim</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e882848c70114dfaaed7409fbb1c0ddf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e882848c70114dfaaed7409fbb1c0ddf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:43:18</sys_created_on>
+        <sys_id>4b7d3fe67b164edf9c173845f3677414</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:43:18</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>number=CLM-TEST-002^policy={{step['8a62a695a56d48f4b886fbd0c2b0285a'].record_id}}^claimant=6816f79cc0a8016401c5a33be04be441^claim_type=health^incident_date=2024-07-10^description=&lt;p&gt;Test claim for closure date validation&lt;/p&gt;^claimed_amount=200000^priority=3^status=new^EQ</value>
+    </sys_element_mapping>
+</record_update>
