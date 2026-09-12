@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4077d88a215a447db3e25a2c08d1ce29" label="Claim Information Request" name="x_1966159_insure_0_info_req" type="collection">
+        <element label="Claim" mandatory="true" max_length="32" name="claim" reference="x_1966159_insure_0_claim" type="reference"/>
+        <element label="Requested Date" max_length="40" name="requested_date" type="glide_date_time"/>
+        <element label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Validated" sequence="3" value="validated"/>
+                <element inactive_on_update="false" label="Received" sequence="2" value="received"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+            </choice>
+        </element>
+        <element default="0" label="Follow-up Count" max_length="40" name="follow_up_count" type="integer"/>
+        <element label="Requirement" max_length="32" name="requirement" reference="x_1966159_insure_0_claim_req" type="reference"/>
+        <element label="Received Date" max_length="40" name="received_date" type="glide_date_time"/>
+        <element label="Customer Comment" max_length="1000" name="customer_comment" type="string"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="claim"/>
+        </index>
+        <index name="index2">
+            <element name="requirement"/>
+        </index>
+    </element>
+</database>

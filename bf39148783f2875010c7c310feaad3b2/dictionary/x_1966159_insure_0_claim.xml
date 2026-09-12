@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="831531a30dec4dff8706e57210ab2a7d" label="Insurance Claim" name="x_1966159_insure_0_claim" type="collection">
+        <element label="Policy" mandatory="true" max_length="32" name="policy" reference="x_1966159_insure_0_policy" type="reference"/>
+        <element label="Submission Date" max_length="40" name="submission_date" type="glide_date_time"/>
+        <element label="Expected Next Step" max_length="200" name="expected_next_step" type="string"/>
+        <element label="Description" mandatory="true" max_length="65536" name="description" type="html"/>
+        <element label="Incident Date" mandatory="true" max_length="40" name="incident_date" type="glide_date"/>
+        <element label="Approved Amount" max_length="40" name="approved_amount" type="currency"/>
+        <element label="Recommended Amount" max_length="40" name="recommended_amount" type="currency"/>
+        <element label="Claim Type" mandatory="true" max_length="40" name="claim_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Travel" sequence="4" value="travel"/>
+                <element inactive_on_update="false" label="Health" sequence="2" value="health"/>
+                <element inactive_on_update="false" label="Home" sequence="3" value="home"/>
+                <element inactive_on_update="false" label="Motor" sequence="1" value="motor"/>
+                <element inactive_on_update="false" label="Life" sequence="5" value="life"/>
+            </choice>
+        </element>
+        <element label="Assigned Adjuster" max_length="32" name="assigned_adjuster" reference="sys_user" type="reference"/>
+        <element label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="7" value="approved"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="Settlement Review" sequence="5" value="settlement_review"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="6" value="pending_approval"/>
+                <element inactive_on_update="false" label="Closed" sequence="10" value="closed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="8" value="rejected"/>
+                <element inactive_on_update="false" label="Risk Assessment" sequence="4" value="risk_assessment"/>
+                <element inactive_on_update="false" label="Awaiting Information" sequence="3" value="awaiting_information"/>
+                <element inactive_on_update="false" label="Under Review" sequence="2" value="under_review"/>
+                <element inactive_on_update="false" label="Settled" sequence="9" value="settled"/>
+            </choice>
+        </element>
+        <element label="Risk Level" max_length="40" name="risk_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="critical"/>
+            </choice>
+        </element>
+        <element label="Priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Fraud Flag" max_length="40" name="fraud_flag" type="boolean"/>
+        <element label="Claimant" mandatory="true" max_length="32" name="claimant" reference="sys_user" type="reference"/>
+        <element label="Rejection Reason" max_length="500" name="rejection_reason" type="string"/>
+        <element label="Closure Date" max_length="40" name="closure_date" type="glide_date_time"/>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Claimed Amount" mandatory="true" max_length="40" name="claimed_amount" type="currency"/>
+        <index name="index">
+            <element name="assigned_adjuster"/>
+        </index>
+        <index name="index2">
+            <element name="claimant"/>
+        </index>
+        <index name="index3">
+            <element name="policy"/>
+        </index>
+    </element>
+</database>

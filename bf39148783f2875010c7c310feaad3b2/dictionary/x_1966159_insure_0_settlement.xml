@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7ffa539e60314a7dad1eca50119dfd5c" label="Settlement Recommendation" name="x_1966159_insure_0_settlement" type="collection">
+        <element label="Deductible" max_length="40" name="deductible" type="currency"/>
+        <element label="Recommended Amount" max_length="40" name="recommended_amount" type="currency"/>
+        <element label="Approved Amount" max_length="40" name="approved_amount" type="currency"/>
+        <element label="Created Date" max_length="40" name="created_date" type="glide_date_time"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_1966159_insure_0_policy" type="reference"/>
+        <element label="Recommendation Reason" max_length="1000" name="recommendation_reason" type="string"/>
+        <element label="Claim" mandatory="true" max_length="32" name="claim" reference="x_1966159_insure_0_claim" type="reference"/>
+        <element label="Coverage Amount" max_length="40" name="coverage_amount" type="currency"/>
+        <element label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="rejected"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Recommended" sequence="2" value="recommended"/>
+                <element inactive_on_update="false" label="Modified" sequence="3" value="modified"/>
+                <element inactive_on_update="false" label="Approved" sequence="4" value="approved"/>
+            </choice>
+        </element>
+        <element label="Claimed Amount" max_length="40" name="claimed_amount" type="currency"/>
+        <element display="true" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="claim"/>
+        </index>
+        <index name="index3">
+            <element name="policy"/>
+        </index>
+    </element>
+</database>
